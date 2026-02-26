@@ -1,0 +1,63 @@
+# ================================================================
+# BookingScraper Pro - Dependencies FINAL
+# Python 3.14.3 Compatible - ALL WHEELS AVAILABLE
+# Verified: February 2026
+# ================================================================
+
+# WEB FRAMEWORK
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+
+# PYDANTIC - Latest compatible
+pydantic==2.12.5
+pydantic-settings==2.7.1
+
+# DATABASE
+sqlalchemy==2.0.36
+alembic==1.14.0
+
+# POSTGRESQL - Use latest with binary
+psycopg[binary]>=3.2.10
+
+# REDIS / CELERY
+redis==5.2.0
+celery==5.4.0
+kombu==5.4.2
+amqp==5.3.1
+vine==5.1.0
+billiard==4.2.1
+
+# CELERY CLI
+click>=8.1.0
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
+
+# WEB SCRAPING
+httpx==0.28.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# LXML - NEW VERSION WITH WHEELS FOR PYTHON 3.14.3
+lxml>=6.0.0
+
+# DATA PROCESSING - NEW VERSIONS WITH WHEELS
+numpy>=2.4.0
+pandas>=3.0.0
+
+# EXCEL
+openpyxl==3.1.5
+
+# UTILITIES
+python-dotenv==1.0.1
+python-dateutil==2.9.0.post0
+python-multipart==0.0.20
+tenacity==9.0.0
+loguru==0.7.3
+
+# DEPENDENCIES
+six==1.17.0
+tzdata>=2024.2
+typing-extensions>=4.14.1
+wcwidth>=0.2.0
+prompt-toolkit>=3.0.0

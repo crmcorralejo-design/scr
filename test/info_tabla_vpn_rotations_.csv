@@ -1,0 +1,6 @@
+"column_name","data_type","is_nullable","column_default"
+"id","integer","NO","nextval('vpn_rotations_id_seq'::regclass)"
+"old_ip","character varying","YES",NULL
+"new_ip","character varying","YES",NULL
+"rotation_reason","character varying","YES",NULL
+"timestamp","timestamp without time zone","YES","CURRENT_TIMESTAMP"

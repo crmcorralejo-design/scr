@@ -1,0 +1,12 @@
+"column_name","data_type","is_nullable","column_default"
+"id","integer","NO","nextval('url_queue_id_seq'::regclass)"
+"url","character varying","NO",NULL
+"language","character varying","YES","'en'::character varying"
+"status","character varying","YES","'pending'::character varying"
+"priority","integer","YES","0"
+"retry_count","integer","YES","0"
+"last_error","text","YES",NULL
+"created_at","timestamp without time zone","YES","CURRENT_TIMESTAMP"
+"updated_at","timestamp without time zone","YES","CURRENT_TIMESTAMP"
+"scraped_at","timestamp without time zone","YES",NULL
+"max_retries","integer","YES","3"

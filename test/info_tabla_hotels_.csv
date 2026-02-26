@@ -1,0 +1,22 @@
+"column_name","data_type","is_nullable","column_default"
+"id","integer","NO","nextval('hotels_id_seq'::regclass)"
+"url_id","integer","YES",NULL
+"name","character varying","NO",NULL
+"language","character varying","YES","'en'::character varying"
+"address","text","YES",NULL
+"description","text","YES",NULL
+"rating","numeric","YES",NULL
+"total_reviews","integer","YES",NULL
+"review_scores","jsonb","YES",NULL
+"services","jsonb","YES",NULL
+"facilities","jsonb","YES",NULL
+"house_rules","text","YES",NULL
+"important_info","text","YES",NULL
+"rooms_info","jsonb","YES",NULL
+"images_urls","jsonb","YES",NULL
+"created_at","timestamp without time zone","YES","CURRENT_TIMESTAMP"
+"updated_at","timestamp without time zone","YES","CURRENT_TIMESTAMP"
+"url","character varying","YES",NULL
+"rating_category","character varying","YES",NULL
+"images_count","integer","YES","0"
+"scraped_at","timestamp without time zone","YES","now()"
